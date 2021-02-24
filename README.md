@@ -2,7 +2,7 @@
 
 这个Repository包含了我在推荐系统学习和工作中的一些Project的整理, **如果您觉得不错，求个star**
 
-### 1: [Text-Similarity-Detection] 文本抄袭自动检测分析
+### 1: [TextSimilarityDetection] 文本抄袭自动检测分析
 主要技术：Python / jieba / TF-IDF / MultinomialNB / KMeans / editdistance / TopN
 
 项目简介：通过分析不同机构发布的文章，判断是否有文章抄袭的情况，并找到原文和抄袭的文章，以及具体相似的句子。可以应用于毕业论文查重，IP作品及文本抄袭检测
@@ -22,6 +22,7 @@ Github：https://github.com/wangyang0922/BI/Santandery
 Github：https://github.com/wangyang0922/BI/Netflix
 
 ###4: [Avazu-Ctr-Prediction] CTR广告点击率预测
+
 主要工作：采用基于神经网络的DeepFM算法，对DSP公司Avazu的网站的广告转化率进行预测，项目中使用了线性模型及非线性模型，并进行了对比分析
 
 Github：https://github.com/wangyang0922/BI/Avazu-Ctr-Prediction
@@ -36,8 +37,13 @@ Github：https://github.com/xxx/House-Price-Prediction
 
 Github：https://github.com/xxx/PageRank
 
-### 7: [Email-Data-Analysis] 电影数据集关联规则挖掘
+### 7: [Movie-Actors] 电影数据集关联规则挖掘
+
+主要技术：Python / apriori / one_hot_encoding 
+
 电影数据集关联规则挖掘：采用Apriori算法，分析电影数据集中的导演和演员信息，从而发现导演和演员之间的频繁项集及关联规则：https://github.com/xxx/Apriori 
+
+Github：https://github.com/wangyang0922/BI/MovieActors
 
 ### 8: [Email-Data-Analysis] 信用卡违约率分析
 信用卡违约率分析：针对台湾某银行信用卡的数据，构建一个分析信用卡违约率的分类器。采用Random Forest算法，信用卡违约率识别率在80%左右：https://github.com/xxx/credit_default
