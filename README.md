@@ -2,7 +2,18 @@
 
 这个Repository包含了我在推荐系统学习和工作中的一些Project的整理, **如果您觉得不错，求个star**
 
-### 1: [TextSimilarityDetection] 文本抄袭自动检测分析
+### 1: [SampleTest] 知识点简单应用
+
+状态：整理中
+
+项目简介：知识点简单应用
+
+Github：https://github.com/wangyang0922/BI/Knowledge
+
+### 2: [TextSimilarityDetection] 文本抄袭自动检测分析
+
+状态：已整理
+
 主要技术：Python / jieba / TF-IDF / MultinomialNB / KMeans / editdistance / TopN
 
 项目简介：通过分析不同机构发布的文章，判断是否有文章抄袭的情况，并找到原文和抄袭的文章，以及具体相似的句子。可以应用于毕业论文查重，IP作品及文本抄袭检测
@@ -10,6 +21,20 @@
 主要工作：对采集的文档s进行数据清洗，采用TF-IDF提取文本特征，使用朴素贝叶斯分类器进行写作风格分类，并针对模仿自己写作风格的文章进行抄袭检测。先采用聚类算法对文档进行聚类降维，针对预测写作风格一致的作品，进行相似度检测及编辑距离检测
 
 Github：https://github.com/wangyang0922/BI/TextSimilarityDetection
+
+
+### 3: [MovieActors] 电影数据集关联规则挖掘
+
+状态：已整理
+
+主要技术：Python / apriori / one_hot_encoding 
+
+电影数据集关联规则挖掘：采用Apriori算法，分析电影数据集中的导演和演员信息，从而发现导演和演员之间的频繁项集及关联规则
+
+Github：https://github.com/wangyang0922/BI/MovieActors
+
+
+
 
 ### 2: [Santandery] 银行产品购买预测
 主要工作：采用Item-based CF方法，对Santandery银行的用户产品购买数据进行分析，并对未来可能购买的产品进行预测
@@ -37,13 +62,6 @@ Github：https://github.com/xxx/House-Price-Prediction
 
 Github：https://github.com/xxx/PageRank
 
-### 7: [Movie-Actors] 电影数据集关联规则挖掘
-
-主要技术：Python / apriori / one_hot_encoding 
-
-电影数据集关联规则挖掘：采用Apriori算法，分析电影数据集中的导演和演员信息，从而发现导演和演员之间的频繁项集及关联规则：https://github.com/xxx/Apriori 
-
-Github：https://github.com/wangyang0922/BI/MovieActors
 
 ### 8: [Email-Data-Analysis] 信用卡违约率分析
 信用卡违约率分析：针对台湾某银行信用卡的数据，构建一个分析信用卡违约率的分类器。采用Random Forest算法，信用卡违约率识别率在80%左右：https://github.com/xxx/credit_default
